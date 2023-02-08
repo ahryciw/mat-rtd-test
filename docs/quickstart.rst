@@ -68,4 +68,15 @@ Also, we can document scripts.
       :param y: Ordinate of interest
       :type y: Scalar
 
+   .. method:: doMoreStuff(x, y, alpha)
+
+      Perform more Stuff operations.
+
+      :param x: Abscissa of interest
+      :type x: Scalar
+      :param y: Ordinate of interest
+      :type y: Scalar
+      :param alpha: Transparency of interest
+      :type alpha: Scalar
+
 The end.
