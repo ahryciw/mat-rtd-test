@@ -49,4 +49,23 @@ Also, we can document scripts.
 
    A so-so script.  Doesn't do much.
 
+
+.. class:: MyClass(arg1, arg2)
+
+   A class definition.
+
+   :param arg1: List of things
+   :type arg1: N x 1 vector of integers
+   :param arg2: List of stuff
+   :type arg2: N x 1 vector of polyshape objects
+
+   .. method:: doStuff(x, y)
+
+      Perform a Stuff operation.
+
+      :param x: Abscissa of interest
+      :type x: Scalar
+      :param y: Ordinate of interest
+      :type y: Scalar
+
 The end.
