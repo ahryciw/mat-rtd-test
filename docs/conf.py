@@ -3,6 +3,9 @@
 # For the full list of built-in configuration values, see the documentation:
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
 
+import pathlib
+matlab_src_dir = pathlib.Path(__file__).parent.resolve().as_posix()
+
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
@@ -14,8 +17,10 @@ release = '0.1.x'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ['sphinxcontrib.matlab',
-              'sphinx_search.extension',
+extensions = ['sphinx_search.extension',
+              'sphinxcontrib.matlab',
+              'sphinx.ext.autodoc',
+              'sphinx.ext.napoleon',
 ]
 
 templates_path = ['_templates']

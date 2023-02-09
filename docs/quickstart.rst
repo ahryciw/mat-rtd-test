@@ -43,12 +43,6 @@ If ``primary_domain = 'mat'`` is working, this should work:
    :param baz: 2 x 1 vector of random numbers
    :returns: [x,y,z] Some positions.
 
-Also, we can document scripts.
-
-.. script:: bleargh.m
-
-   A so-so script.  Doesn't do much.
-
 
 .. class:: MyClass(arg1, arg2)
 
@@ -68,4 +62,22 @@ Also, we can document scripts.
       :param y: Ordinate of interest
       :type y: Scalar
 
-The end.
+How does it work with Napoleon?
+
+.. automodule: example_numpy
+
+.. autofunction: example_numpy.function_with_types_in_docstring
+
+Test Data
+=========
+This is the test data module.
+
+.. automodule:: test_data
+
+:mod:`test_data` is a really cool module.
+
+My Handle Class
+---------------
+This is the handle class definition.
+
+.. autoclass:: MyHandleClass
