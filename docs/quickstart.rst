@@ -6,8 +6,6 @@ This is a test of how this documentation will work.
 Primary domain
 --------------
 
-These docs use ``sphinxcontrib.matlab``.  ``primary_domain`` in ``conf.py`` should be ``'mat'``.
-
 Here be some code to test highlighting:
 
 .. code-block::  matlab
@@ -32,8 +30,6 @@ Here be some code to test highlighting:
    end
 
 The above should be coloured correctly.
-
-If ``primary_domain = 'mat'`` is working, this should work:
 
 .. function::  foo(bar,baz)
 
@@ -64,20 +60,15 @@ If ``primary_domain = 'mat'`` is working, this should work:
 
 How does it work with Napoleon?
 
-.. automodule: example_numpy
+.. autofunction:: foo_bar.first_function
 
-.. autofunction: example_numpy.function_with_types_in_docstring
+   This looks lovely.
 
-Test Data
-=========
-This is the test data module.
+   :Arguments: + **Foo** (*float*) - Sum of bars
+               + **Bar** (*float*) - Product of foos
 
-.. automodule:: test_data
+.. autofunction:: foo_bar.second_function
 
-:mod:`test_data` is a really cool module.
+   This not so much:  multiple returns are not formatted nicely.
 
-My Handle Class
----------------
-This is the handle class definition.
 
-.. autoclass:: MyHandleClass
