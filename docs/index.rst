@@ -8,6 +8,7 @@ Welcome to mat-rtd-test's documentation!
 
 .. toctree::
    :maxdepth: 2
+   :numbered:
    :caption: Contents:
 
    quickstart

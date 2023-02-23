@@ -58,17 +58,19 @@ The above should be coloured correctly.
       :param y: Ordinate of interest
       :type y: Scalar
 
-How does it work with Napoleon?
+More functions!
 
-.. autofunction:: foo_bar.first_function
-
-   This looks lovely.
+.. function::  qaz(bar,baz)
 
    :Arguments: + **Foo** (*float*) - Sum of bars
                + **Bar** (*float*) - Product of foos
 
-.. autofunction:: foo_bar.second_function
 
-   This not so much:  multiple returns are not formatted nicely.
+Ordered list
+""""""""""""
 
+#. First
+#. Second
+#. Third
+#. More?
 

@@ -20,9 +20,6 @@ release = '0.1.x'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = ['sphinx_search.extension',
-              'sphinx.ext.autodoc',
-              'sphinx.ext.napoleon',
-              'argpatch'
 ]
 
 templates_path = ['_templates']
